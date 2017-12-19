@@ -89,7 +89,10 @@ cd ~
 wget https://arc.bukancoder.co/Bots-Iptables/block.txt -O block 
 wget https://arc.bukancoder.co/Bots-Iptables/ips.txt -O ips 
 chmod +x block 
-./block 
+./block
+
+echo -e "$MAG--=[ Save iptables ]=--$IJO"
+service iptables save
 
 echo
 echo -e "$MAG--=[Done! Bots has been blocked using Nginx Bad Bots Blocker and iptables]=--$IJO"
