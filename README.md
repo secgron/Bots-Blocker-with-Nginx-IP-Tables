@@ -5,7 +5,7 @@ Auto Installer to block bad bots using Nginx and IP Tables
 
 CentOS 6 & 7
 ```bash
-$ wget https://raw.githubusercontent.com/teguhmicro/Bot-Blocker-with-Nginx-IP-Tables/master/bots.shh -O bots.sh
+$ wget https://raw.githubusercontent.com/teguhmicro/Bot-Blocker-with-Nginx-IP-Tables/master/bots.sh -O bots.sh
 $ bash bots.sh
 ```
 
