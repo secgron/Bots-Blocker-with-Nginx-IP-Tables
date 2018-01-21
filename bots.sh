@@ -92,6 +92,14 @@ chmod +x block
 ./block
 
 echo -e "$MAG--=[ Save iptables ]=--$IJO"
+
+systemctl stop firewalld
+systemctl mask firewalld
+
+yum install iptables-services
+
+systemctl enable iptables
+
 service iptables save
 
 echo
