@@ -92,7 +92,7 @@ chmod +x block
 ./block
 
 echo -e "$MAG--=[ Save iptables ]=--$IJO"
-firewall-cmd --reload
+service iptables save
 
 echo
 echo -e "$MAG--=[Done! Bots has been blocked using Nginx Bad Bots Blocker and iptables]=--$IJO"
